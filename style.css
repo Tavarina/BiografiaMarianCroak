@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    font-size:100%;
+    background-color: #c8c5db;    
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: flex-start;
+}
+
+.header_item{
+    color: #080739;
+    font-weight: 500;
+    font-size: 26px;
+    margin: 62px 3px;
+    cursor: pointer;
+  }
+.header_img {
+    height: 160px;
+    /* margin: auto 11rem; */
+}
