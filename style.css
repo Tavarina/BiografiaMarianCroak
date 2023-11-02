@@ -7,7 +7,7 @@
 }
 body {
     font-size:100%;
-    background-color: #c8c5db;    
+    background-color: #8e7fe5;    
 }
 
 .header {
@@ -27,4 +27,139 @@ body {
 .header_img {
     height: 160px;
     /* margin: auto 11rem; */
+}
+.home_foto{
+    width: 100%;
+}
+.descricao_titulo {
+    font-weight: 500;
+    font-size: 28px;
+    color: #e9dcdc;
+    margin: 10px 40px;
+    padding: 18px 0;
+}
+.descricao_p {
+    font-weight: 400;
+    font-size:16px;
+    color: #000;
+    text-align: left;
+    margin: auto 50px;
+}
+.frase_div {
+    margin: 16px 50px;
+    padding: 18px 0;
+}
+.frase_h1 {
+    font-weight: 700 italic;
+    font-size:26px;
+    text-align: center;
+    color: #e9dcdc;
+}
+
+.frase_p {
+    font-weight: 500;
+    font-size:20px;
+    text-align: center;
+    margin: 1rem 10rem;
+    color: #D3D3D3;
+}
+
+.container {
+    position: relative;
+    padding: 20px;
+    max-width: 120vh;
+    margin: 28px auto;
+  }
+  
+  .gallery-wrapper {
+    overflow-x: auto;
+  }
+  
+  .arrow-left, .arrow-right {
+    position: absolute;
+    top: 0;
+    left: -13px;
+    right: auto;
+    bottom: 0;
+    font-size: 20px;
+    line-height: 250px;
+    width: 38px;
+    color: #000;
+    transition: all 600ms ease-in-out;
+    background: linear-gradient(to left, transparent 0%, black 200%);
+    opacity: 0.1;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .arrow-left:hover,
+  .arrow-right:hover {
+    opacity: 1;
+  }
+  
+  .arrow-right {
+    right: 0;
+    left: auto;
+    text-align: right;
+    background: linear-gradient(to right, transparent 0%, black 200%);
+  }
+  
+  .gallery {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 15px;
+  }
+  
+  .item {
+    width: 100%;
+    flex-shrink: 0;
+    transition: all 600ms ease-in-out;
+    opacity: 0.5;
+  }
+  
+  .current-item {
+    opacity: 1;
+  }
+  
+  .gallery-wrapper::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .gallery-wrapper {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .conheca_div {
+    margin: 16px 50px;
+    padding: 18px 0;
+  }
+  .conheca_h1 {
+    font-weight: 700 italic; 
+    font-size:26px;
+    text-align: left;
+    color: #e9dcdc;
+  }
+  .conheca_h4 {
+    font-weight: 400;
+    font-size:20px;
+    text-align: left;
+    color: #000;
+  }
+  .conheca_p {
+    font-weight: 400;
+    font-size:16px;
+    color: #000;
+    text-align: left;
+    margin: auto 50px;
+  }
+  .footer {
+    background-color: #333; 
+    padding: 20px;
+    text-align: center;
+  }
+.footer_p {
+    font-weight: 400;
+    font-size:16px;
+    color: #fff; 
 }
