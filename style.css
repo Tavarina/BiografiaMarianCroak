@@ -28,15 +28,21 @@ body {
     height: 160px;
     /* margin: auto 11rem; */
 }
+
 .home_foto{
     width: 100%;
 }
+
+.div_titulo{
+  background: linear-gradient(95.15deg, #080739 16.62%, #2f3051 51.84%, #8e7fe5 85.43%);
+}
+
 .descricao_titulo {
     font-weight: 500;
     font-size: 28px;
     color: #e9dcdc;
-    margin: 10px 40px;
-    padding: 18px 0;
+    margin: 20px 40px;
+    padding: 32px 0;
 }
 .descricao_p {
     font-weight: 400;
@@ -45,12 +51,16 @@ body {
     text-align: left;
     margin: auto 50px;
 }
+.frase_section {
+  background-color: #18192f;
+}
 .frase_div {
     margin: 16px 50px;
     padding: 18px 0;
 }
 .frase_h1 {
-    font-weight: 700 italic;
+    font-weight: 700;
+    font-style: italic;
     font-size:26px;
     text-align: center;
     color: #e9dcdc;
@@ -66,9 +76,9 @@ body {
 
 .container {
     position: relative;
-    padding: 20px;
-    max-width: 120vh;
-    margin: 28px auto;
+    /*padding: 20px; */
+    max-width: 134vh;
+    margin: 28px auto
   }
   
   .gallery-wrapper {
@@ -78,7 +88,7 @@ body {
   .arrow-left, .arrow-right {
     position: absolute;
     top: 0;
-    left: -13px;
+    left: 0;
     right: auto;
     bottom: 0;
     font-size: 20px;
@@ -131,30 +141,50 @@ body {
   }
 
   .conheca_div {
-    margin: 16px 50px;
-    padding: 18px 0;
+    /* margin: 16px 50px;
+    padding: 18px 0; */
   }
   .conheca_h1 {
-    font-weight: 700 italic; 
-    font-size:26px;
-    text-align: left;
+    /* text-align: left; */
+    font-weight: 500;
+    font-size: 28px;
     color: #e9dcdc;
+    margin: 20px 40px;
+    padding: 32px 0;
   }
-  .conheca_h4 {
+  .conheca_h5 {
+    font-weight: bold;
+    font-size: 24px;
+    font-style: italic;
+    color: #d3d3d3;
+    margin: auto;
+    padding: 12px 48px;
+  }
+  .conheca_h3 {
     font-weight: 400;
-    font-size:20px;
-    text-align: left;
-    color: #000;
+    font-size: 20px;
+    font-style: italic;
+    /* font-weight: bold; */
+    color: #18192f;
+    margin: auto 40px;
   }
   .conheca_p {
     font-weight: 400;
-    font-size:16px;
-    color: #000;
+    font-size: 16px;
+    color: #18192f;
     text-align: left;
     margin: auto 50px;
+    display: inline-flex;
+    flex-direction: row-reverse;
+    padding: 10px;
+  }
+  .conheca_img {
+    width: 350px;
+    height: 16rem;
+    margin: auto 25px;
   }
   .footer {
-    background-color: #333; 
+    background-color: #18192f; 
     padding: 20px;
     text-align: center;
   }
