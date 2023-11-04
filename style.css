@@ -193,3 +193,24 @@ body {
     font-size:16px;
     color: #fff; 
 }
+
+
+@media(max-width:414px){
+  .header {
+    flex-direction: inherit;
+    margin: 16px 26px;
+    align-items: center;
+    /* flex-wrap: nowrap;*/
+}
+.header_img {
+  display: flex;
+}
+.header_item {
+  display: contents;
+}
+  .home_foto {
+    width: 73vh;
+    /* max-width: 50rem; */
+    height: 47vh;
+}
+}
